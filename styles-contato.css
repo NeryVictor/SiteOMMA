@@ -1,0 +1,153 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    background-color: #FFC107;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+header img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+nav {
+    background: 100%;
+    background-color: #FFA000;
+    height: 48px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    }
+
+nav ul li{
+    display: inline;
+    padding: 12px 58px;
+}
+nav ul li a{    
+    text-decoration: none;
+    color: #FDFDFD;
+}
+
+#bannertop {
+    display: flex;  
+    height: 405px;
+}
+
+#bannertop img {
+    display: flex;
+    background-size: cover;
+}
+
+h1 {
+position: absolute;
+left: 122px;
+top: 214px;
+font-size: 70px;
+line-height: 85px;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+main {
+    display: flex;
+    margin-top: 102px;
+    margin-bottom: 133px;
+    margin-left: 127px;
+   }
+
+form {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    border-radius: 20px;
+    width: 100%;
+    margin-right: 128px;
+}
+
+fieldset {
+       border: none;
+       padding: 0%;
+   }
+
+   legend {
+       
+        font-family: Ubuntu;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+
+color: #FFC107;
+   }
+
+div {
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    height: 48.65px;
+
+}
+
+#div1 {
+    margin: 200px 33px 22px 38px ;
+
+}
+#div2 {
+    margin: 22px 33px 22px 38px ;
+
+}
+#div3 {
+    height: 293px;
+    margin: 22px 33px 22px 38px ;
+
+}
+
+input {
+    border: none;
+    outline: 0;
+    margin: 7.6px 590px 7.6px 33px;
+    justify-content: center;
+    width: 125px;
+    height: 33px;
+}
+
+button {
+    background: #FFC107;
+    border-radius: 50px;
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 48.65px;
+    width: 164px;
+    text-align: center;
+    margin-left: 33px;
+    border: none;
+    margin-bottom: 65.35px;
+
+color: #FFFFFF;
+}     
+
+footer {
+    background: #FFC107;  
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer span {
+    color: #FFFFFF; 
+    align-self: center;
+    margin-left: 38px;
+}
+
+
+
