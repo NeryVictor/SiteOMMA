@@ -1,0 +1,55 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+}
+
+/* Cabeçalho + Nav */
+header {
+    position: relative;
+    width: 100%;
+    background-color: #FFC107;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+nav{
+    background-color: #FFA000;
+    height: 48px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    }
+
+nav ul li{
+    display: inline;
+    padding: 12px 58px;
+}
+nav ul li a{    
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;  
+    text-decoration: none;
+    color: #FDFDFD;
+    }
+footer {
+    background: #FFC107;  
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer span {
+    color: #FFFFFF; 
+    align-self: center;
+    margin-left: 38px;
+}
+/* Fim Cabeçalho + Nav */
